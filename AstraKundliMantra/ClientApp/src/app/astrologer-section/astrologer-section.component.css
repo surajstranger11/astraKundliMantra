@@ -1,0 +1,209 @@
+.text-left {
+  text-align: left;
+}
+
+.profile {
+  background: #fff;
+  padding: 5px;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
+.thumbnailNew {
+  border-radius: 0 !important;
+  border: 1px solid #dfdfdf !important;
+}
+
+.astroBg {
+  background: #fffefa;
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+.profile_link {
+  margin-bottom: 3px;
+  display: -webkit-box;
+  max-height: 35px;
+  text-decoration: none !important;
+}
+.profile .star {
+  color: #fc0;
+}
+
+.top0 {
+  margin-top: 0 !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+h6, .h6 {
+  font-size: 12px;
+}
+.star_rating_a {
+  background: #fff;
+  border: 1px solid #b3afaf;
+  color: #333;
+  padding: 2px 8px 2px 8px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+.glyphicon_gray_star {
+  position: relative;
+  top: 2px;
+  margin-left: 1px;
+  color: #e8bb06;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.thumbnail > img, .thumbnail a > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.profile img {
+  width: 70px;
+  height: 70px !important;
+}
+
+.b-loaded {
+  opacity: 1;
+}
+
+.b-lazy {
+  transition: all 500ms;
+}
+
+.margin_Rgt10 {
+  margin-right: 10px !important;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.call_action {
+  border-top: 1px solid #f0f0f0;
+  margin-top: 10px;
+}
+.text-center {
+  text-align: center;
+}
+.LightGrayColor {
+  color: #999;
+}
+
+.top10 {
+  margin-top: 10px;
+}
+
+.margin0 {
+  margin-bottom: 0 !important;
+}
+
+.sprite_experience {
+  width: 20px;
+  height: 15px;
+  background-position: -47px -48px !important;
+}
+
+.sprite_talk_astrologer {
+  display: block;
+  display: -webkit-inline-box;
+  background: url(https://images.astroyogi.com/english/images/sprites_talk_astrologer.png) no-repeat;
+}
+.sprite_rupee {
+  width: 20px;
+  height: 15px;
+  background-position: -72px -72px !important;
+}
+
+.sprite_talk_astrologer {
+  display: block;
+  display: -webkit-inline-box;
+  background: url(https://images.astroyogi.com/english/images/sprites_talk_astrologer.png) no-repeat;
+}
+.sprite_online {
+  background-position: -10px -10px !important;
+}
+
+.sprite_call_width {
+  width: 29px;
+  height: 29px;
+  margin-top: 10px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+p {
+  line-height: 23px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+.LightGrayColor {
+  color: #999;
+}
+
+.top5 {
+  margin-top: 5px;
+}
+
+.margin0 {
+  margin-bottom: 0 !important;
+}
+.onlineaction:hover {
+  color: #17a05d !important;
+}
+a:active, a:hover {
+  outline: 0;
+}
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+

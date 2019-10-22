@@ -1,0 +1,82 @@
+<p-dialog header="Hello User" [(visible)]="showDialog" [modal]="true" [responsive]="true" [style]="{width: '767px'}" [minY]="70"
+          [maximizable]="true" [baseZIndex]="10000">
+  <div class="modal-content modal">
+    <div class="row">
+      <div class="col-md-5 HideTopPhone">
+        <img class="b-lazy b-loaded" lazy-src="/common/sign_place.jpg" id="bannerimage" width="359" height="451" alt="SIGN UP" title="SIGN UP" src="//images.astroyogi.com/astroyogi2017/english/images/tta/sign_up_banner.jpg">
+      </div>
+      <div class="col-md-7 col-xs-12">
+        <div class="col-md-12 row" id="registrationForm">
+          <div class=" padding_rgt_lft_20">
+            <!--<button type="button" class="sign_up_close cursor-pointer" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; CloseModal()"></button>-->
+            <div class="h1 mobilefont22">SIGN UP</div>
+            <p class="text lead M0"></p>
+            <div class="clearfix top30"></div>
+            <form id="frmRegistrationpopup" method="post" novalidate="novalidate">
+              <input value="PartnerId" type="hidden" id="PopUpEncAstroPartnerId" name="PopUpEncAstroPartnerId">
+              <input type="hidden" id="PopUpUtmSource" name="PopUpUtmSource" value="">
+              <input type="hidden" id="PopUpUtmMedium" name="PopUpUtmMedium" value="">
+              <input type="hidden" id="PopUpUtmCampaign" name="PopUpUtmCampaign" value="">
+              <input type="hidden" id="PopUpUtmTerm" name="PopUpUtmTerm" value="">
+              <input type="hidden" id="PopUpUtmContent" name="PopUpUtmContent" value="">
+              <input type="hidden" id="hdnURL" name="hdnURL" value="">
+              <div class="sign_up_form sign_up_form_a autocomplete">
+                <input id="PopUpPhoneCode" type="text" name="myCountry" value="91 (IN)" placeholder="Ph. Code" autocomplete="off">
+
+              </div>
+              <div class="sign_up_form sign_up_form_b">
+                <input class="form-control topBtm5" placeholder="Phone Number*" type="number" maxlength="16" data-val="true" data-val-required="Enter valid mobile number" id="PopUpPhoneNumber" name="PopUpPhoneNumber" value="">
+                <span class="field-validation-valid text-danger" data-valmsg-for="PopUpPhoneNumber" data-valmsg-replace="true"></span>
+                <span id="MobileError" class="text-danger" style="float:left;display:none;"></span>
+              </div>
+              <div class="clearfix"></div>
+              <button type="submit" id="btnSubmit" class="sign_up_default top30" disabled="">SIGN UP</button>
+
+              <div class="HideTopPhone"><br><br><br><br><br></div>
+              <div class="modal-footer center font18 top17"> <span class="LightGrayColor">Already have an account?</span> <a onclick="if (!window.__cfRLUnblockHandlers) return false; OpenLogin()" class="cursor-pointer"><u>Login</u></a> </div>
+              <input name="__RequestVerificationToken" type="hidden" value="CfDJ8LsMxdDmbl9Dsg2HX2yH_LeCHOIpSZ5wGT0kHuqzJ2rdXxGuxQvKNvz7Mhhf8zFmyCHSJFRss5Rb-y-H4LcI2RLmNIN1eUHH8PnIlI90HDGJ4uMO6gXzrDm9hNtuKpDqkIgwlN2xN8Q9WOBmnn2FHpPNK8dJs4deZqm5j71V40wQTsr9GFzEw-qL8HCBt6Go4w">
+            </form>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="col-md-12 row" id="verifyOTPForm" style="display:none">
+          <div class=" padding_rgt_lft_20">
+            <button type="button" class="sign_up_close" data-dismiss="modal" aria-label="Close" onclick="if (!window.__cfRLUnblockHandlers) return false; CloseModal()"><span aria-hidden="true">x</span></button>
+            <div class="h1 mobilefont22">Enter OTP</div>
+            <p class="text lead M0"> OTP has been sent to you on your mobile number <span id="mobileNumber"></span> <a onclick="if (!window.__cfRLUnblockHandlers) return false; EditNumber()" class="cursor-pointer"><span class="glyphicon glyphicon-pencil singupedit" aria-hidden="true"></span></a> </p>
+            <form class="top17 ">
+              <div class="Sign_up_otp">
+                <div class="divOTP">
+                  <input type="number" pattern="[0-9]{5}" class="combine input-arrow-none" maxlength="1" autofocus="" onkeypress="if (!window.__cfRLUnblockHandlers) return false; return isNumberKey(event)" oninput="if (!window.__cfRLUnblockHandlers) return false; javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                  <input type="number" pattern="[0-9]{5}" class="combine input-arrow-none" maxlength="1" onkeypress="if (!window.__cfRLUnblockHandlers) return false; return isNumberKey(event)" oninput="if (!window.__cfRLUnblockHandlers) return false; javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                  <input type="number" pattern="[0-9]{5}" class="combine input-arrow-none" maxlength="1" onkeypress="if (!window.__cfRLUnblockHandlers) return false; return isNumberKey(event)" oninput="if (!window.__cfRLUnblockHandlers) return false; javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                  <input type="number" pattern="[0-9]{5}" class="combine input-arrow-none" maxlength="1" onkeypress="if (!window.__cfRLUnblockHandlers) return false; return isNumberKey(event)" oninput="if (!window.__cfRLUnblockHandlers) return false; javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                  <input type="number" pattern="[0-9]{5}" class="combine input-arrow-none" maxlength="1" onkeypress="if (!window.__cfRLUnblockHandlers) return false; return isNumberKey(event)" oninput="if (!window.__cfRLUnblockHandlers) return false; javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                  <input type="number" pattern="[0-9]{5}" class="combine input-arrow-none" maxlength="1" onkeypress="if (!window.__cfRLUnblockHandlers) return false; return isNumberKey(event)" oninput="if (!window.__cfRLUnblockHandlers) return false; javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                </div>
+              </div>
+              <div class="Sign_up_otp">
+                <div id="otpresponseerrormsg" style="display: none;" class="text-danger"></div>
+              </div>
+              <div id="otpSummary" style="display: none;" class="text-success top27" role="alert"></div>
+              <div class="text-left font16 top17" id="resendTimer"><span></span> <span class="GrayColor" id="timer"></span></div>
+              <div class="text-left font16 top17" id="resendOTPlink"><span>Didn't receive the SMS? </span> <a onclick="if (!window.__cfRLUnblockHandlers) return false; SendOTP()" class="cursor-pointer"><u>Resend</u></a> </div>
+              <div class="text-left font16 top17" id="resendlink"><a onclick="if (!window.__cfRLUnblockHandlers) return false; ResendOTP()" class="cursor-pointer"><u>Resend by Call</u></a> </div>
+              <div class="clearfix"></div>
+              <button type="button" id="btnverifyOTP" class="sign_up_default top30" onclick="if (!window.__cfRLUnblockHandlers) return false; VerifyOTP()">VERIFY OTP</button>
+              <div class="clearfix"></div>
+              <div id="popupSignUpValidationSummary" style="display: none;" class="text-danger text-center top10" role="alert"></div>
+            </form>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!--<p-footer>
+    <button type="button" pButton icon="pi pi-check" (click)="showDialog=false">Yes</button>
+    <button type="button" pButton icon="pi pi-close" (click)="showDialog=false" class="ui-button-secondary">No</button>
+  </p-footer>-->
+</p-dialog>
